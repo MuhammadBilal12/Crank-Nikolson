@@ -1,7 +1,4 @@
-%Main program 
-%Authors
-%Muhammad Bilal
-%Bashir ud Din
+%Main program for comparing option prives calculated from Black-scholes and Crank-nikolson
 clear all; clc;
 r= 0.05;
 sig = 0.3;
