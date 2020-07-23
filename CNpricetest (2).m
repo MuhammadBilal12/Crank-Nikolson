@@ -1,7 +1,5 @@
-%Authors
-%Muhammad Bilal
-%Bashir ud Din
-%Cran nikolson 
+ 
+%calculating value of option using Crank-nikplson
 function [S,U,time,V,dt,dx] = CNprice(r,sig,strike,Smax,T,n,j)
 
 % n and j are the number of required discretization points for Time and Stock respectively
