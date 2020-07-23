@@ -1,4 +1,4 @@
-
+%calculating value of option using Black-scholes 
 function [C] = BLScallprice(S,r,sig,strike,T)
 C = zeros(length(S),1); % Initialize vector to store the option price.
 
